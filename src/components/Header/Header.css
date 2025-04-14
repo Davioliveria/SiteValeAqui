@@ -2,15 +2,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  background: #333;
+  padding: 1.5rem 3rem;
+  background: #2c2c2c;
   color: white;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#ff6500;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .nav {
@@ -19,11 +22,16 @@
 }
 
 .nav a {
-  color: white;
+  color: #e0e0e0;
   text-decoration: none;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 70px;
-  font-size: 20px;
+  margin-left: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff6500;
 }
 
 .menu-toggle {
@@ -83,3 +91,4 @@
     display: flex;
   }
 }
+
