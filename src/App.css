@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #132C3C; /* cor de fundo escura pra combinar */
+  overflow-x: hidden; /* previne scroll horizontal */
+}
+
+* {
+  box-sizing: border-box;
+  background-color: #132C3C;
+}
