@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Formulario from "./pages/Formulario";
 import Contato from "./pages/Contato";
 import Integrantes from "./pages/Integrantes";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/contato" element={<Contato />} />
         <Route path="/integrantes" element={<Integrantes />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }
