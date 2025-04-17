@@ -1,0 +1,13 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* altura mínima da tela */
+    background: #f4f8fc;
+    padding: 20px;
+  }
+  
+  iframe {
+    border-radius: 10px;
+  }
+  

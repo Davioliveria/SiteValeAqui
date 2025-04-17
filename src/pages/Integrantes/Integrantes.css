@@ -1,0 +1,66 @@
+.pagina-integrantes {
+  padding: 60px 20px;
+  background: #f4f8fc;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.comecin h1{
+  
+  font-size: 3rem;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.comecin p {
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  color: #000000;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+
+.integrantes-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.integrante {
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 180px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.instagram-link svg {
+  width: 30px;
+  height: 30px;
+}
+
+.RedesSociais {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+}
+
+.linkedin-link svg {
+  width: 30px;
+  height: 30px;
+}
+
+.github-link svg {
+  width: 30px;
+  height: 30px;
+}

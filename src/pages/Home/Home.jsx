@@ -32,7 +32,7 @@ const Home = () => {
         </div>
       </section>
 
-      <a href="#contato" className="btn-cta">Entre em contato</a>
+      <a href="./Contato" className="btn-cta">Entre em contato</a>
     </div>
   );
 };

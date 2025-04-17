@@ -3,9 +3,9 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
-import Formulario from "./pages/Formulario";
-import Contato from "./pages/Contato";
-import Integrantes from "./pages/Integrantes";
+import Formulario from "./pages/Formulario/Formulario";
+import Contato from "./pages/Contato/Contato";
+import Integrantes from "./pages/Integrantes/Integrantes";
 import Footer from "./components/Footer/Footer";
 
 export default function App() {

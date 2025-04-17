@@ -1,9 +1,10 @@
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 3rem;
-  background: #2c2c2c;
+  background: #132c3c;
   color: white;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   position: relative;
@@ -14,7 +15,27 @@
   color:#ff6500;
   font-size: 2rem;
   font-weight: 600;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 }
+
+.logo::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 0%;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.logo:hover::after {
+  width: 100%;
+}
+
+
 
 .nav {
   display: flex;
@@ -75,12 +96,15 @@ nav a:hover {
     right: -300px;
     width: 200px;
     height: 100%;
-    background: #222;
+    background:#2c2c2c;
     flex-direction: column;
     transition: right 0.3s ease;
     align-items: flex-start;
     padding: 2rem;
     z-index: 1000;
+  }
+  .nav a {
+    margin-top: 60px;
   }
 
   .nav.open {
